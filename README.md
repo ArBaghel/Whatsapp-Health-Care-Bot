@@ -30,18 +30,18 @@ A conversational AI bot for *rural healthcare triage* using *WhatsApp, **Gemini 
 
 ### 1️⃣ Clone the Repository
 
-bash
+```bash
 git clone https://github.com/ShreeNath67/WhatsApp-HealthCare-Bot.git
 cd whatsapp-healthcare-bot
 pip install -r requirements.txt
-
+```
 
 ### 2️⃣ Create .env File
 
 ⚠ These Twilio credentials are for *testing only* (hackathon use). Replace with your own later.
 Copy paste in '.env' file
 
-env
+```env
 TWILIO_ACCOUNT_SID=AC32221d007c565448f669a5e880323083
 TWILIO_AUTH_TOKEN=8953bd25c3aa7e7f6c9a0e1ffc9f0d4c
 TWILIO_PHONE_NUMBER=whatsapp:+14155238886
@@ -49,40 +49,40 @@ FLASK_ENV=development
 FLASK_DEBUG=1
 GEMINI_API_KEY=your_gemini_key
 GOOGLE_API_KEY=your_maps_key
-
+```
 
 ### 3️⃣ Run Flask App
 
-bash
+```bash
 python app.py
-
+```
 ### 4️⃣ Setup Ngrok
 
 - Create an account at [Ngrok Dashboard](https://dashboard.ngrok.com)
 - Add your auth token (for demo use only):
 
-bash
+```bash
 ngrok config add-authtoken 33eOuODzwGUSyDi2bEgjVorSSAF_4vsMmGbsggGSMz4XAbLQv
-
+```
 
 - Start Ngrok:
 
-bash
+```bash
 ngrok http 5000
-
+```
 
 - Use this live webhook URL for Twilio:
-  
+  ```
   https://unimperious-occultly-leopoldo.ngrok-free.dev/whatsapp
-  
+  ```
 
 ### 5️⃣ Setup Twilio (WhatsApp Sandbox)
 
 - Create account at [Twilio](https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn)
 - Verify email and phone
 - Go to Messaging → Try WhatsApp
-- Scan QR code or send join code to sandbox number: +1 415 523 8886
-- Copy your SID and Auth Token → paste into .env
+- Scan QR code or send join code to sandbox number:` +1 415 523 8886`
+- Copy your SID and Auth Token → paste into `.env`
 - In Sandbox settings, paste your Ngrok URL under “When a message comes in”
 
 ---
@@ -101,7 +101,7 @@ Then type symptoms like:
 ---
 ## 🧩 Test Symptoms
 
-| Symptom      | Mapped Disease | Notes                                 |
+| Symptom      | Mapped Disease | Notes                                  |
 |--------------|----------------|----------------------------------------|
 | fever        | Fever          | Core symptom, triggers fever flow      |
 | temperature  | Fever          | Alternate phrasing                     |
