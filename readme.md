@@ -39,7 +39,7 @@ Follow these steps to get your AI Health Assistant running locally and connected
 
 1.  **Clone the Code:** Open your terminal or command prompt and run:
     ```bash
-    git clone https://github.com/ShreeNathX/WhatsApp-HealthCare-Bot
+    git clone https://github.com/ArBaghel/Whatsapp-Health-Care-Bot
     cd whatsapp-healthcare-bot
     ```
 
@@ -165,13 +165,14 @@ Through future AI advancements, real-time health insights, and verified medical 
 
 
 ## 👨‍💻 Author and Team
-**Shree Nath Mahato (Leader)**  
-📧 Contact: [shreenath.ventures17@gmail.com](mailto:shreenath.ventures17@gmail.com).<br>
+**Aditya Singh Baghel**  
+📧 Contact: [adityabharadwaj22.08@gmail.com](mailto:adityabharadwaj22.08@gmail.com).<br>
 💬  For any queries, suggestions, or collaborations, feel free to reach out via email.
 
 
 
 ### Team Members
 * **Arjun Chaudhary** - [GitHub Profile](https://github.com/Arzunchy).
-* **Aditya Singh Baghel** – [GitHub Profile](https://github.com/ArBaghel).
+* **Shree Nath Mahato** – [GitHub Profile](https://github.com/ShreeNathX).
 * **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905).
+
