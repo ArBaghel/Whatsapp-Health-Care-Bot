@@ -1,24 +1,24 @@
-# 🩺 WhatsApp AI Health Assistant (Powered by OpenAI)
+#  WhatsApp AI Health Assistant (Powered by OpenAI)
 
 A highly accessible and secure conversational AI assistant for **rural healthcare triage** and first aid advice, delivered through **WhatsApp**.  
 This project uses **OpenAI’s GPT and Whisper models** for intelligent reasoning, empathy, and accurate voice transcription, alongside **Twilio** for seamless messaging.
 
 ---
 
-## ✅ Key Features
+## Key Features
 
 This AI is designed to act as a **safe, non-diagnostic** health assistant.
 
-* 🤒 **Symptom Triage:** Analyzes symptoms and provides immediate, safe first aid and home care advice.
-* 🧠 **OpenAI Integration:** Utilizes **OpenAI GPT models** for powerful, context-aware reasoning and memory-based conversation handling.
-* 🎙️ **Voice Message Support (ASR):** Uses **OpenAI Whisper** to **transcribe voice notes** into text, ensuring accessibility for all users.
-* 🗣 **Multilingual Support:** Auto-detects and converses in **English, Hindi, Marathi, and Bengali**.
-* 🚨 **Emergency Handoff:** Instantly recognizes critical keywords (e.g., "chest pain," "saans lene me dikkat") and directs the user to call **108** (Ambulance/Emergency).
-* 🏥 **Referral Link:** Provides a **localized Google Maps link** to find the nearest health center or hospital during emergencies.
+*  **Symptom Triage:** Analyzes symptoms and provides immediate, safe first aid and home care advice.
+*  **OpenAI Integration:** Utilizes **OpenAI GPT models** for powerful, context-aware reasoning and memory-based conversation handling.
+*  **Voice Message Support (ASR):** Uses **OpenAI Whisper** to **transcribe voice notes** into text, ensuring accessibility for all users.
+*  **Multilingual Support:** Auto-detects and converses in **English, Hindi, Marathi, and Bengali**.
+*  **Emergency Handoff:** Instantly recognizes critical keywords (e.g., "chest pain," "saans lene me dikkat") and directs the user to call **108** (Ambulance/Emergency).
+*  **Referral Link:** Provides a **localized Google Maps link** to find the nearest health center or hospital during emergencies.
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 | :--- | :--- |
@@ -31,7 +31,7 @@ This AI is designed to act as a **safe, non-diagnostic** health assistant.
 
 ---
 
-## ⚙️ Setup Guide (Step-by-Step for Beginners)
+##  Setup Guide (Step-by-Step for Beginners)
 
 Follow these steps to get your AI Health Assistant running locally and connected to WhatsApp.
 
@@ -105,7 +105,7 @@ Keep this window open. It will show log messages when a user texts the bot.
 
 ---
 
-## 📱 How to Use Your Assistant
+##  How to Use Your Assistant
 
 Send a message, an emergency word, or even a **voice note** to the Twilio Sandbox number: `+1 415 523 8886`.
 
@@ -118,13 +118,13 @@ Send a message, an emergency word, or even a **voice note** to the Twilio Sandbo
 
 ---
 
-## 📎 Important Notes
+##  Important Notes
 
 * **Security:** Always keep your **`.env`** file private and ensure it is listed in your **`.gitignore`** file.
 * **Non-Diagnostic:** This tool is an assistant for **triage and safety**; it is **not a substitute for a doctor**.
 ---
 
-## 🚀 Future Enhancements — WhatsApp AI Health Assistant
+##  Future Enhancements — WhatsApp AI Health Assistant
 
 This document outlines planned improvements and advanced features for future versions of the **AI Health Assistant**.  
 The goal is to make the system more intelligent, scalable, and medically reliable while maintaining accessibility through **WhatsApp**.
@@ -133,30 +133,30 @@ The goal is to make the system more intelligent, scalable, and medically reliabl
 
 | Area | Planned Feature | Description |
 |:------|:----------------|:-------------|
-| 🧠 **AI Intelligence** | Context Memory | Remember previous chats for personalized responses. |
+|  **AI Intelligence** | Context Memory | Remember previous chats for personalized responses. |
 |  | Severity Scoring | Classify symptoms as mild, moderate, or severe. |
 |  | Medical Ontology | Use datasets like **SNOMED CT** or **ICD-10** for accurate symptom mapping. |
-| 🗺️ **Location & Hospitals** | Google Maps Integration | Suggest nearby verified hospitals or clinics. |
+|  **Location & Hospitals** | Google Maps Integration | Suggest nearby verified hospitals or clinics. |
 |  | Emergency Routing | Provide real-time routes to emergency centers. |
 |  | Specialist Suggestion | Recommend doctors based on detected symptoms. |
-| 🩺 **Health Insights** | Trend Dashboard | Track regional symptom and disease trends. |
+|  **Health Insights** | Trend Dashboard | Track regional symptom and disease trends. |
 |  | Anonymous Analytics | Use anonymized data for healthcare insights. |
-| 💬 **Communication & UX** | Voice Interaction | Add **OpenAI TTS** for two-way voice communication. |
+|  **Communication & UX** | Voice Interaction | Add **OpenAI TTS** for two-way voice communication. |
 |  | Health Education | Send infographics or videos for first-aid and prevention. |
 |  | Emotion Awareness | Adjust tone based on user sentiment. |
-| 🧩 **Architecture** | Cloud Hosting | Deploy on **AWS / GCP / Azure** for reliability. |
+|  **Architecture** | Cloud Hosting | Deploy on **AWS / GCP / Azure** for reliability. |
 |  | Database Integration | Store chat and health data using **MongoDB / PostgreSQL**. |
 |  | Caching System | Use **Redis** for fast message handling. |
-| 🔒 **Security** | Encryption | Ensure end-to-end chat data protection. |
+|  **Security** | Encryption | Ensure end-to-end chat data protection. |
 |  | Compliance | Follow **HIPAA / GDPR** health data standards. |
 |  | Consent System | Add user consent for data usage. |
-| 🌍 **Community Expansion** | Multilingual Support | Extend to 15+ Indian and global languages. |
+|  **Community Expansion** | Multilingual Support | Extend to 15+ Indian and global languages. |
 |  | Partnerships | Collaborate with hospitals & NGOs. |
 |  | Offline Mode | Explore SMS or low-bandwidth operation. |
 
 ---
 
-## 💡 Vision Statement
+##  Vision Statement
 
 The **WhatsApp AI Health Assistant (Powered by OpenAI)** aims to become a trusted, scalable, and multilingual digital companion that bridges healthcare accessibility gaps worldwide.  
 Through future AI advancements, real-time health insights, and verified medical integration, it will evolve into a **personalized, safe, and reliable digital triage partner** for every user.
@@ -164,7 +164,7 @@ Through future AI advancements, real-time health insights, and verified medical 
 ---
 
 
-## 👨‍💻 Author and Team
+##  Author and Team
 **Aditya Singh Baghel**  
 📧 Contact: [adityabharadwaj22.08@gmail.com](mailto:adityabharadwaj22.08@gmail.com).<br>
 💬  For any queries, suggestions, or collaborations, feel free to reach out via email.
@@ -175,4 +175,5 @@ Through future AI advancements, real-time health insights, and verified medical 
 * **Arjun Chaudhary** - [GitHub Profile](https://github.com/Arzunchy).
 * **Shree Nath Mahato** – [GitHub Profile](https://github.com/ShreeNathX).
 * **Suraj Kumar** – [GitHub Profile](https://github.com/Suraj110905).
+
 
